@@ -1,5 +1,8 @@
 # Descrição
 
+## Como usar
+Acesse através do link `https://mortal-debate.vercel.app`
+
 Esse projeto foi realizado para a disciplina de Programação de Scripts na Fatec Franca.
 O tema para o desenvolvimento do projeto era livre, mas o objetivo era criar um jogo de RPG de turnos.
 
