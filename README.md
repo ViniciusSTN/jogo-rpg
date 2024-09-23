@@ -1,50 +1,16 @@
-# React + TypeScript + Vite
+# Descrição
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse projeto foi realizado para a disciplina de Programação de Scripts na Fatec Franca.
+O tema para o desenvolvimento do projeto era livre, mas o objetivo era criar um jogo de RPG de turnos.
 
-Currently, two official plugins are available:
+## Tecnologias e Bibliotecas Utilizadas
+- ReactJS: Biblioteca JavaScript para construção de interfaces de usuário.
+- TypeScript: Superset de JavaScript que adiciona tipagem estática ao código.
+- Tailwind CSS: Framework de CSS utilitário para estilização.
+- Recoil: Biblioteca para gerenciamento de estado global.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Como usar
+1. Clone este repositório
+2. Execute o comando `npm install` dentro da pasta raiz do projeto
+3. Execute `npm run dev` para rodar o projeto em desenvolvimento
+4. Abra o navegador e acesse a URL http://localhost:5173/
