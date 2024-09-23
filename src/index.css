@@ -1,3 +1,70 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes blink {
+  0%, 80% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blink {
+  animation: blink 2s ease-in-out infinite;
+}
+
+@keyframes user-skill-move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+@keyframes cpu-skill-move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+
+.user-skill {
+  position: absolute;
+  z-index: 10;
+  width: 5rem; 
+  top: 33.333%;
+  transform: translateY(-50%);
+  animation: user-skill-move 2s infinite;
+}
+
+.cpu-skill {
+  position: absolute;
+  z-index: 10;
+  width: 5rem;
+  top: 33.33%;
+  transition: translateY(-50%);
+  animation: cpu-skill-move 2s infinite;
+}
+
+@keyframes grow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(2);
+  }
+}
+
+.healing {
+  width: 100px;
+  height: 100px;
+  animation: grow 1s ease-in-out;
+}
