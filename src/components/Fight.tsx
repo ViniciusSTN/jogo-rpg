@@ -310,7 +310,7 @@ export const Fight = () => {
         {
           userHealingImg && (
             <div className="absolute top-1/2 -translate-y-1/2 healing">
-              <img src="public/cura.png" alt="cura" />
+              <img src="https://firebasestorage.googleapis.com/v0/b/mortal-debate.appspot.com/o/cura.png?alt=media&token=4613553d-d791-438e-a00f-a7ea95f02616" alt="cura" />
             </div>
           )
         }
@@ -329,13 +329,13 @@ export const Fight = () => {
         {
           cpuHealingImg && (
             <div className="absolute top-1/2 -translate-y-1/2 healing">
-              <img src="public/cura.png" alt="cura" />
+              <img src="https://firebasestorage.googleapis.com/v0/b/mortal-debate.appspot.com/o/cura.png?alt=media&token=4613553d-d791-438e-a00f-a7ea95f02616" alt="cura" />
             </div>
           )
         }
 
         <div className="bg-[#dddee2] absolute bottom-10 left-14 px-4 py-2 rounded-xl shadow-xl">
-          <img src="public/buttons.webp" alt="bottons" className="w-36" />
+          <img src="https://firebasestorage.googleapis.com/v0/b/mortal-debate.appspot.com/o/buttons.webp?alt=media&token=00ff12a4-fd40-4c88-8981-a402e29fce81" alt="bottons" className="w-36" />
         </div>
       </div>
     </div>

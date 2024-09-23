@@ -121,7 +121,7 @@ export const SelectCharacters = () => {
           {
             userCharacter && (
               <>
-                <img src="public/bandeira.webp" alt="brasil" className="w-10" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/mortal-debate.appspot.com/o/bandeira.webp?alt=media&token=bd839a81-bf72-46f1-8ee3-e3c1527807ca" alt="brasil" className="w-10" />
                 <p className="text-white">Brasil</p>
               </>
             )
@@ -140,7 +140,7 @@ export const SelectCharacters = () => {
           }
           <li className="h-32 w-32">
             <button onClick={handleRandomSelect}>
-              <img src="public/random.png" alt="random" className="w-full h-full" />
+              <img src="https://firebasestorage.googleapis.com/v0/b/mortal-debate.appspot.com/o/random.png?alt=media&token=8074d409-a5f9-4b44-b962-7d8df20430a8" alt="random" className="w-full h-full" />
             </button>
           </li>
         </ul>
@@ -150,7 +150,7 @@ export const SelectCharacters = () => {
           {
             cpuCharacter && (
               <>
-                <img src="public/bandeira.webp" alt="brasil" className="w-10" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/mortal-debate.appspot.com/o/bandeira.webp?alt=media&token=bd839a81-bf72-46f1-8ee3-e3c1527807ca" alt="brasil" className="w-10" />
                 <p className="text-white">Brasil</p>
               </>
             )

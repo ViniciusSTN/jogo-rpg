@@ -9,7 +9,7 @@ export default function PrincipalSection() {
 
   useEffect(() => {
     function handleUserInteraction() {
-      const audio = new Audio('public/music.mp3')
+      const audio = new Audio('https://firebasestorage.googleapis.com/v0/b/mortal-debate.appspot.com/o/music.mp3?alt=media&token=f97dd54f-3305-45c5-baa0-8db73f285cab')
       audio.volume = 0.02
       audio.loop = true
       audio.play().catch((error) => {
